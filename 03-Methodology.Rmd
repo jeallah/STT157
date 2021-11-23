@@ -1,0 +1,13 @@
+# Methodology
+
+Methodology here.
+
+According to [@battig1969category]
+
+`r stringi::stri_rand_lipsum(1)`
+
+`r stringi::stri_rand_lipsum(1)`
+
+`r stringi::stri_rand_lipsum(1)`
+
+`r stringi::stri_rand_lipsum(1)`
