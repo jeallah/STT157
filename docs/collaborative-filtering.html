@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Summary and Conclusion | AniCom: Anime Recommendation System using Collaborative Filtering</title>
-  <meta name="description" content="Summary and Conclusion | AniCom: Anime Recommendation System using Collaborative Filtering" />
+  <title>4 Collaborative Filtering | AniCom: Anime Recommendation System using Collaborative Filtering</title>
+  <meta name="description" content="4 Collaborative Filtering | AniCom: Anime Recommendation System using Collaborative Filtering" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Summary and Conclusion | AniCom: Anime Recommendation System using Collaborative Filtering" />
+  <meta property="og:title" content="4 Collaborative Filtering | AniCom: Anime Recommendation System using Collaborative Filtering" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Summary and Conclusion | AniCom: Anime Recommendation System using Collaborative Filtering" />
+  <meta name="twitter:title" content="4 Collaborative Filtering | AniCom: Anime Recommendation System using Collaborative Filtering" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="clustering.html"/>
-<link rel="next" href="plan-for-this-thesis.html"/>
+<link rel="prev" href="recommendation-system.html"/>
+<link rel="next" href="clustering.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -126,18 +126,25 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="summary-and-conclusion" class="section level1 unnumbered">
-<h1>Summary and Conclusion</h1>
-<div class="line-block">         In this digital age where the internet is accessible to most of us, marketers, business owners, movie producers, etc. utilize the different online platforms to promote and sell their products and services. In just a click and swipe of their gadgets, customers can buy products even a thousand miles away from them but the problem of customers is choosing what best product for their needs out of a wide variety of options online. We can say that; technology’s accessibility becomes easier but most users are having a hard time sorting out their preferences. The discovery of Recommendation systems is really useful for the users who are often overwhelmed by choices and need help searching for what they’re looking for. Recommendation systems suggest relevant products and services based on the user’s history of transaction, preferences, choices, and pattern of buying habits and behavior. Users can discover new and relevant products that they might need.</div>
-<div class="line-block">          Recommendation system comes in different types but the most basic ones are content-based recommendation system, collaborative filtering recommendation system, and hybrid recommendation system. AniCom focuses only on collaborative filtering in which it only needs users’ historical preferences on a set of items. Sufficient historical data of users is needed to make accurate predictions of preference. The main method of collaborative filtering can be categorized into two which are item-based and user-based collaborative filtering. Both methods will be explored in creating a collaborative filtering recommendation system. In dealing with our data, we will utilize clustering in which is the method of identifying similar groups of data in a dataset. Clustering has several types which can be categorized into partitional-based, hierarchical-based, density-based, and grid-based clustering. Exploration of such types is needed to come up with the best clustering techniques to be used for building AniCom.</div>
+<div id="collaborative-filtering" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Collaborative Filtering</h1>
+<div class="line-block">        Collaborative filtering is a type of personalized recommendation strategy that identifies the similarities between users (based on site interactions) to serve relevant product recommendations across digital properties. Recommender systems collect user information, mining this data to inform which items to display (Retta, 2020). Collaborative Filtering doesn’t need a good amount of information of item’s features (for example in a movie, it can be movie attributes such as genre, year, director, actor, etc.) except users’ historical preference on a set of items. Since it’s based on historical data, the core assumption here is that the users who have agreed in the past tend to also agree in the future (Luo, 2019), and the core idea behind such systems is that the historical data of the users should be enough to make a prediction. We don’t need anything more than that historical data, no extra push from the user, no presently trending information, etc. Collaborative filtering (CF) collects information about a user by asking them to rate items and makes recommendations based on highly-rated items by users with similar tastes. CF approaches make recommendations based on the ratings of items by a set of users (neighbors) whose rating profiles are most similar to that of the target user. CF algorithms generally compute the overall similarity or correlation between users and use that as a weight when making recommendations. In a book recommendation application, for example, the first step for the CF system is to try to find the “neighbors” of the target user. The “neighbors” refer to other users who have similar tastes in books (rate the same books similarly). In the second step, only the books that are highly rated by the “neighbors” would be recommended (Zhou et al., 2011). Collaborative filtering (CF) can be categorized into two main methods as user-based collaborative filtering (memory-based) and item-based collaborative filtering (model-based) (Lee, 2015).</div>
+<div id="user-based-collaborative-filtering-ubcf" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> User-based Collaborative Filtering (UBCF)</h2>
+<div class="line-block">       The user-based collaborative filtering approach is to predict items to the target user that are already items of interest for other users who are similar to the target user. UBCF needs the explicit rating scores of items rated by users to calculate similarities between users and exploits k-nearest neighbor algorithms to find the nearest neighbors based on user similarities. And then, it generates prediction in terms of items by combining the neighbor user’s rating scores based on similarity weighted averaging (Lee, 2015).</div>
+</div>
+<div id="item-based-collaborative-filtering-ibcf" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Item-based Collaborative Filtering (IBCF)</h2>
+<div class="line-block">        The item-based collaborative filtering approach is to predict items by inquiring into similarities between the items and other items that are already associated with the user. IBCF needs a set of items that the target user has already rated to calculate similarities between items and a target item. And then, it generates predictions in terms of the target item by combining the target user’s previous preferences based on these item similarities. In IBCF, users’ preference data can be collected in two ways. One is that the user explicitly gives a rating score to an item within a certain numerical scale. The other is that it implicitly analyzes users’ purchase records or click-through rates (Lee, 2015).</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="clustering.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="plan-for-this-thesis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="recommendation-system.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="clustering.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

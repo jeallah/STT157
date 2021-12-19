@@ -17,6 +17,7 @@ divisive-clustering
 density-based-algorithms
 dbscan-density-based-spatial-clustering-of-applications-with-noise
 optics-ordering-points-to-identify-clustering-structure
-summary-and-conclusion
-plan-for-this-thesis
-references
+grid-based-algorithms
+sting-statistical-information-grid-approach
+wave-cluster
+clique-clustering-in-quest
