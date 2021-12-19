@@ -1,13 +1,24 @@
-# Methodology
+# Summary and Conclusion
+          In this digital age where the internet is accessible to most of us, marketers, business owners, movie producers, etc. utilize the different online platforms to promote and sell their products and services. In just a click and swipe of their gadgets, customers can buy products even a thousand miles away from them but the problem of customers is choosing what best product for their needs out of a wide variety of options online. We can say that; technology’s accessibility becomes easier but most users are having a hard time sorting out their preferences. The discovery of Recommendation systems is really useful for the users who are often overwhelmed by choices and need help searching for what they're looking for. Recommendation systems suggest relevant products and services based on the user’s history of transaction, preferences, choices, and pattern of buying habits and behavior. Users can discover new and relevant products that they might need.
+           Recommendation system comes in different types but the most basic ones are content-based recommendation system, collaborative filtering recommendation system, and hybrid recommendation system. AniCom focuses only on collaborative filtering in which it only needs users’ historical preferences on a set of items. Sufficient historical data of users is needed to make accurate predictions of preference. The main method of collaborative filtering can be categorized into two which are item-based and user-based collaborative filtering. Both methods will be explored in creating a collaborative filtering recommendation system. In dealing with our data, we will utilize clustering in which is the method of identifying similar groups of data in a dataset. Clustering has several types which can be categorized into partitional-based, hierarchical-based, density-based, and grid-based clustering. Exploration of such types is needed to come up with the best clustering techniques to be used for building AniCom.
+          
+# Plan for this Thesis
+          This study aimed to investigate the collaborative filtering recommendation system in predicting preferences. Specifically, it aims to achieve the following: build a collaborative filtering recommendation system using a clustering algorithm, build a recommendation system for anime, and build and implement a recommendation system using python. The data collection is not needed in this study since secondary data retrieved from a reliable internet database is utilized. The study will solely focus on data preprocessing, data exploratory, and machine learning to create a collaborative filtering recommendation system.
 
-Methodology here.
-
-According to [@battig1969category]
-
-`r stringi::stri_rand_lipsum(1)`
-
-`r stringi::stri_rand_lipsum(1)`
-
-`r stringi::stri_rand_lipsum(1)`
-
-`r stringi::stri_rand_lipsum(1)`
+# References:
+1.	Shetty, B. (2021, June 2). An In-Depth Guide to How Recommender Systems Work. Built In. https://builtin.com/data-science/recommender-systems
+2.	Severt, N. (2020, June 18). An Introduction to Recommender Systems (+9 Easy Examples). Iterators. https://www.iteratorshq.com/blog/an-introduction-recommender-systems-9-easy-examples/
+3.	Bobadilla, J., Ortega, F., Hernando, A., & Gutiérrez, A. (2013). Recommender systems survey. Knowledge-Based Systems, 46, 109–132. https://doi.org/10.1016/j.knosys.2013.03.012
+4.	Zhou, X., Xu, Y., Li, Y., Josang, A., & Cox, C. (2011). The state-of-the-art in personalized recommender systems for social networking. Artificial Intelligence Review, 37(2), 119–132. https://doi.org/10.1007/s10462-011-9222-1
+5.	Retta, L. (2020, November 13). The power of collaborative filtering. Dynamic Yield. https://www.dynamicyield.com/lesson/collaborative-filtering/
+6.	Luo, S. (2019, February 6). Introduction to Recommender System - Towards Data Science. Medium. https://towardsdatascience.com/intro-to-recommender-system-collaborative-filtering-64a238194a26
+7.	Kaushik, S. (2020, October 18). Clustering | Types Of Clustering | Clustering Applications. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/
+8.	Yegulalp, S. (2018, September 7). What Is Anime? An Introduction to Japanese Animation. LiveAbout. https://www.liveabout.com/what-is-anime-144982
+9.	Dwivedi, R. (2020, April 16). What Are Recommendation Systems in Machine Learning? | Analytics Steps. https://www.analyticssteps.com/blogs/what-are-recommendation-systems-machine-learning
+10.	de Campos, L. M., Fernández-Luna, J. M., & Huete, J. F. (2008). A collaborative recommender system based on probabilistic inference from fuzzy observations. Fuzzy Sets 
+11.	Lee, Y. (2015, December). RECOMMENDATION SYSTEM USING COLLABORATIVE FILTERING. SJSU ScholarWorks. https://scholarworks.sjsu.edu/etd_projects/439/
+12.	di Natale, C., & Martinelli, E. (2019, January 1). Data Analysis. ScienceDirect. https://www.sciencedirect.com/science/article/pii/B9780128145623000059
+13.	Kutbay, Uğurhan. (2018). Partitional Clustering. 10.5772/intechopen.75836.
+14.	GeeksforGeeks. (2021, October 6). ML | Hierarchical clustering (Agglomerative and Divisive clustering). https://www.geeksforgeeks.org/ml-hierarchical-clustering-agglomerative-and-divisive-clustering/?ref=rp
+15.	University of New South Wales. (2011). Encyclopedia of Machine Learning | SpringerLink. https://link.springer.com/referencework/10.1007/978-0-387-30164-8?error=cookies_not_supported&code=8e181975-25bd-48b9-9d39-884fe371b2f5
+16.	Sharma, R. (2021, September 29). What is Clustering and Different Types of Clustering Methods. UpGrad Blog. https://www.upgrad.com/blog/clustering-and-types-of-clustering-methods/
